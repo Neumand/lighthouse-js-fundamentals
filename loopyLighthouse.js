@@ -7,7 +7,7 @@
 const startingNumber = 100;
 const endingNumber = 200;
 
-function loopyLighthouse () {
+function loopyLighthouse() {
   for (let currentNumber = startingNumber; currentNumber <= endingNumber; currentNumber++) {
     if (currentNumber % 3 === 0 && currentNumber % 4 === 0) {
       console.log("LoopyLighthouse");
